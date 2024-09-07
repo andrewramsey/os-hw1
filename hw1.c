@@ -23,7 +23,7 @@ int main() {
     printf("Address array1 after allocation: %p\n", &array1);
 
     // Print size of array pointer in bytes, not the actual length of array
-    printf("Size of the array pointer: %zu \n", sizeof(array1)); // %zu is long unsigned int, using %d creates warnings
+    printf("Size of array1 pointer: %zu \n", sizeof(array1)); // %zu is long unsigned int, using %d creates warnings
 
     int i; // initialize i for loops
     
